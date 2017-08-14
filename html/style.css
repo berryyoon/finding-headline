@@ -34,7 +34,22 @@ a:visited {
     width: 100%;
     margin: 0 auto;
     text-align: center;
+    padding-bottom: 30px;
+    padding-bottom: 30px;
 }
+
+ h4{
+    font-size: 1.2rem;
+ }
+
+.content_space {
+    text-align: left;
+}
+.content_space img{
+    padding: 5px;
+}
+
+
 
 
 
@@ -57,9 +72,10 @@ a:visited {
     color: #fff;
 }
 
-
-.article_image{
-    display:block;
-    float: left;
-    padding: 0 20px 20px 0;
-}
+/*위로가기 화살표*/
+/*
+#uparrow {
+    position:fixed;
+    bottom:5px;
+    right:200px;
+}*/
