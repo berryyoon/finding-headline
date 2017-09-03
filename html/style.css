@@ -38,19 +38,17 @@ a:visited {
     padding-bottom: 30px;
 }
 
- h4{
-    font-size: 1.2rem;
- }
+.display_keyword{
+    font-size: 2rem;
+    color:red;
+    float: left;
+}
 
-.content_space {
+.content_space p {
     text-align: left;
+    display:inline-block;
+
 }
-.content_space img{
-    padding: 5px;
-}
-
-
-
 
 
 #footer {
@@ -62,10 +60,8 @@ a:visited {
 
 #footer a {
     position: relative;
-    /*left: 40%;*/
     text-decoration: none;
     color: #bbb;
-    /*padding: 30px;*/
 }
 
 #footer a:hover {
