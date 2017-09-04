@@ -1,4 +1,8 @@
-@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+html {
+    font-family: 'nanumgothic',serif;
+}
 
 a {
     text-decoration: none;
@@ -17,6 +21,8 @@ a:visited {
 
 #header h1{
 	font-size: 5rem;
+    padding:0;
+    margin: 0;
 }
 
 
@@ -27,6 +33,16 @@ a:visited {
     padding-bottom: 100px;
     text-align: center;
     background-color: #e0e0e0;
+}
+
+#header h2{
+    margin:0;
+    padding:0;
+}
+
+#header img{
+    margin:0 0;
+    padding: 0 0;
 }
 
 
@@ -61,11 +77,10 @@ a:visited {
 #footer a {
     position: relative;
     text-decoration: none;
-    color: #bbb;
 }
 
 #footer a:hover {
-    color: #fff;
+    color: #A52A2A;
 }
 
 /*위로가기 화살표*/
