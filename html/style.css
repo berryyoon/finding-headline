@@ -71,23 +71,19 @@ h3{
 
 }
 
-#article_list_big{
-    
+#news_list_big{
     padding-left: 0;
 }
-#article_list_big ul{
+#news_list_big ul{
     list-style-type: none;
 
 }
 
-.article_list_small{
+.news_list_small{
     margin-bottom: 30px;
     padding-left: 0;
 }
 
-.article_title {
-    color:red;
-}
 
 #footer {
     font-family: 'Nanum Gothic';
